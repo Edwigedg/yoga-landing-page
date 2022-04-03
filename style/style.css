@@ -1,0 +1,85 @@
+@import url('header.css');
+@import url('button.css');
+@import url(form.css);
+
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* MAIN */
+
+.concept {
+  margin-top: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+article {
+  padding: 20px;
+}
+
+.flexrreverse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.icon {
+  margin-left: 30px;
+  display: block;
+  width: 100px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px 1px gray;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.iconleft {
+  margin-right: 30px;
+  display: block;
+  width: 100px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px 1px gray;
+}
+
+.iconleft img {
+  width: 100%;
+}
+
+main h2 {
+  color: #6E8E9B;
+}
+
+main h3 {
+  font-weight: bold;
+}
+
+.cours img {
+  width: 200px;
+  height: 200px;
+  margin-right: 40px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #6E8E9B;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

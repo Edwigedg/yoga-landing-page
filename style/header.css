@@ -1,0 +1,39 @@
+/* HEADER */
+header {
+  background-image: url(../img/yogamat.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  align-items: flex-end;
+  padding-left: 10px;
+}
+
+header img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-family: 'Mandali', sans-serif;
+  font-size: 50px;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 576px) {
+	.banner {
+	background-position: center;
+	}
+}

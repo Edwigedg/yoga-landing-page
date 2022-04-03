@@ -1,0 +1,16 @@
+.btn {
+  text-decoration: none;
+  color: #632626;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border: 0;
+  margin-left: 20px;
+}
+
+.btn:hover {
+	background-color:#632626;
+	color: white;
+  transition: 1s;
+}
